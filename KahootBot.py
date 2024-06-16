@@ -15,7 +15,7 @@ class KahootBot():
                               4: '''//*[@id="root"]/div/main/div[2]/div/div/button[4]'''}
 
         # start webdriver (firefox)
-        self.driver = webdriver.Chrome(executable_path=r"chromedriver/chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path=r"<path-to-chromedriver-executable>")
 
         # JOIN KAHOOT
         while True:
